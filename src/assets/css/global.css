@@ -1,0 +1,65 @@
+/* Init */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  height: 100vh;
+}
+
+.Home, .Nav, .MainContent, .TransactionHistory {
+  height: 100%;
+}
+
+
+
+/* Nav */
+.App .Home .Nav {
+  background-color: #fafcfe;
+}
+
+.App .Home .Nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+.App .Home .Nav ul > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+  border-radius: 50%;
+  transition: .2s;
+}
+
+.App .Home .Nav ul li.active {
+  background-color: aquamarine;
+}
+
+.App .Home .Nav ul > li:hover {
+  transform: scale(1.2);
+  background-color: aquamarine;
+}
+
+.App .Home .Nav ul li.active:hover {
+  transform: scale(1);
+  background-color: aquamarine;
+}
+
+.App .Home .Nav ul > li i {
+  font-size: x-large;
+  padding: 10px;
+  color: black;
+}
+
+
+
+/* MainContent */
+.App .Home .MainContent {
+  background-color: #eef1f9;
+}
